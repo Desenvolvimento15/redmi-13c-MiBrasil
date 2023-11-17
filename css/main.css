@@ -36,13 +36,13 @@
     :root{
 
     --background-silver-dark: #828282;
+    --background-silver-light: #e8e8e8;
+    --background-white-light: #fafafa;
+    --background-white: #ffff;
     --background-black: #000;
     --background-blue-clean: #f1f3f4;
-    --background-silver-light: #e8e8e8;
     --background-silver: #59626f;
     --background-green: #c0eac6;
-    --background-white-light: #fafafa;
-    --background-white: #263549;
 
     --text-white: #fff;
     --text-preto: #000;
@@ -50,151 +50,116 @@
     }
   
   .txt-branco {color: var(--text-white);}
+
+  .boxcolor-silver{background-color: var(--background-silver);}
+  .boxcolor-silver-dark{background-color: var(--background-silver-dark);}
+  .boxcolor-silver-light{background-color: var(--background-silver-light);}
+  .boxcolor-white{background-color: var(--background-white);}
+  .boxcolor-black{background-color: var(--background-black);}
+  .boxcolor-blue-clean{background-color: var(--background-blue-clean);}
+  .boxcolor-green{background-color: var(--background-green)}
   
-  .boxcolor-blue-01{background-color: var(--background-blue-01);}
-  .boxcolor-blue-02{background-color: var(--background-blue-02);}
-  .boxcolor-blue-03{background-color: var(--background-blue-03);}
-  .boxcolor-blue-04{background-color: var(--background-blue-04);}
-  .boxcolor-blue-05{background-color: var(--background-blue-05);}
-  .boxcolor-blue-06{background-color: var(--background-blue-06);}
-  .boxcolor-blue-07{background-color: var(--background-blue-07);}
-  .boxcolor-blue-08{background-color: var(--background-blue-08);}
-    
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
-  
+
   .img-fluid {width: 100%; height: auto;}
 
-    .subtitle {
-    text-align: center;
-    font-size: 2.3rem;
-    font-weight: 600;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 1rem;
-    overflow-wrap: break-word;
-    }
+  .subtitle {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  }
 
-    .p-center {
-    font-size: 1.1rem;
-    text-align: center;
+  .p-center {
+  font-size: 1.1rem;
+  text-align: center;
 
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    line-height: 1.3;
-    overflow-wrap: break-word;
-    }
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+  }
+
+  .p-notas{
+  text-align: left;
+  font-size: 1rem;
+  padding: 5rem;
+  font-family: "Camphor Pro", sans-serif;
+  }
 
 
-    .p-notas{
-    text-align: left;
-    font-size: 1rem;
-    padding: 5rem;
-    font-family: "Camphor Pro", sans-serif;
-    }
 
-    .icons-text {
-    font-size: 1rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-top: 1rem;
-    }
+  .spacing{padding: 3rem;}
 
-    .spacing{padding: 3rem;}
+  /******************************* Grid *******************************/
 
-    /******************************* Grid *******************************/
 
-    .grid-second-s101 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 7rem;
-    padding: 2rem;
-    }
-
-    .grid-icons-xiaomi{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    }
-  
   /************************* Mobile ***********************/
   
-  @media only screen  and (max-width: 920px) {
-      
+  @media only screen and (max-width: 920px) {
       
   .row-s101 {padding: 0 0px;}
       
-    
-    .col-md-12-s101 {
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-  
-  
+  .col-md-12-s101 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
   /********************** Grind Mobile *******************/
-  
+
   .grid-second-s101 {
-   
-    gap: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   }
     
   /********************************************************/
-  
-    .spacing{padding: 1rem;}
-  
-  
-    .subtitle {
-    text-align: center;
-    font-size: 1.09rem;
-    font-weight: 700;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 0.5rem;
-    }
-  
-    .p-center {
-    font-size: 0.99rem;
-    text-align: center;
-    padding: 1rem;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-    }
-  
-    .icons-text {
-    font-size: 1rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-top: 1rem;
-    }
-  
-    .icons-img{
-      width: 6rem;
-    }
-  
-    .p-notas {
-    text-align: left;
-    font-size: 0.9rem;
-    padding: 0.5rem;
-    
-    }
-  
+
+  .spacing{padding: 1rem;}
+
+  .subtitle {
+  text-align: center;
+  font-size: 1.09rem;
+  font-weight: 700;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 0.5rem;
+  }
+
+  .p-center {
+  font-size: 0.99rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .icons-text {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 1rem;
+  }
+
+  .icons-img{
+  width: 6rem;
+  }
+
+  .p-notas {
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  }
+
   
   }
