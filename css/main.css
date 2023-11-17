@@ -35,14 +35,14 @@
 
     :root{
 
-    --background-blue-01: #6DA5C2;
-    --background-blue-02: #6D8CB7;
-    --background-blue-03: #7EABC7;
-    --background-blue-04: #4D709D;
-    --background-blue-05: #1F6E9E;
-    --background-blue-06: #2C5275;
-    --background-blue-07: #5F75A0;
-    --background-blue-08: #263549;
+    --background-silver-dark: #828282;
+    --background-black: #000;
+    --background-blue-clean: #f1f3f4;
+    --background-silver-light: #e8e8e8;
+    --background-silver: #59626f;
+    --background-green: #c0eac6;
+    --background-white-light: #fafafa;
+    --background-white: #263549;
 
     --text-white: #fff;
     --text-preto: #000;
