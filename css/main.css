@@ -91,11 +91,25 @@
   font-family: "Camphor Pro", sans-serif;
   }
 
+  .img-grid-mob{
+    display: none;
+  }
+  .img-grid-desk{
+    display: block;
 
+  }
 
   .spacing{padding: 3rem;}
 
   /******************************* Grid *******************************/
+
+
+
+
+
+
+
+
 
 
   /************************* Mobile ***********************/
@@ -103,6 +117,10 @@
   @media only screen and (max-width: 920px) {
       
   .row-s101 {padding: 0 0px;}
+
+  .img-grid-desk{display: none;}
+  .img-grid-mob{display: block;
+  }
       
   .col-md-12-s101 {
   -ms-flex: 0 0 100%;
