@@ -135,11 +135,50 @@
     font-weight: 700;
 }
 
+.icons-title {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 700;
+  color: var(--title-icon);
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
+
+.icons-text {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.icons-tex {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 400;
+  color: #7f7f7f;
+}
+
   /******************************* Grid ***********************/
 
 
 
-
+  .grid-desk-xiaomi{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
 
 
 
