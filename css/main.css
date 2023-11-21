@@ -179,10 +179,63 @@
     align-items: center;
     gap: 5rem;
   }
+/*** Slideshow ***/
+.slick-slider {
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list, .slick-slider button{overflow: hidden}
+.slick-list.dragging {cursor: ew-resize}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  z-index: 10 !important;
+}
+.slick-slide img{width:100%}
+.slick-slide.dragging img {pointer-events: none}
+.slick-initialized .slick-slide {display: block}
+.slick-slider button{
+  cursor: pointer; 
+  outline: 0;
+  text-indent: 100px;
+  transition: all .4s ease;
+}
 
+/*** Navigation ***/
 
-
-
+/*** Pagination ***/
+.slick-dots {
+  margin: 10px 0 0;
+  padding: 0;
+  text-align: center;
+}
+.slick-dots li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.slick-dots button {
+  background: #ccc;
+  border-radius: 15px;
+  border: 1px solid #999;
+  box-shadow: 2px 2px 0 #666;
+  height: 20px;
+  width: 20px;
+}
+.slick-dots button:hover {
+  background: #eaeaea;
+  border: 1px solid #ccc;
+}
+.slick-active button{
+  background: #f90; 
+  border-color: #966;
+}
 
 
   /************************* Mobile ***********************/
