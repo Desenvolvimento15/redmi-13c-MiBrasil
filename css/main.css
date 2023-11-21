@@ -40,7 +40,7 @@
     --background-white-light: #fafafa;
     --background-white: #ffff;
     --background-black: #000;
-    --background-blue-clean: #f1f3f4;
+    --background-silver-clean: #f1f3f4;
     --background-silver: #59626f;
     --background-green: #c0eac6;
 
@@ -55,8 +55,9 @@
   .boxcolor-silver-dark{background-color: var(--background-silver-dark);}
   .boxcolor-silver-light{background-color: var(--background-silver-light);}
   .boxcolor-white{background-color: var(--background-white);}
+  .boxcolor-white-light{background-color: var(--background-white-light);}
   .boxcolor-black{background-color: var(--background-black);}
-  .boxcolor-blue-clean{background-color: var(--background-blue-clean);}
+  .boxcolor-silver-clean{background-color: var(--background-silver-clean);}
   .boxcolor-green{background-color: var(--background-green)}
   
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
