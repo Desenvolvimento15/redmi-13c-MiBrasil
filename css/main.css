@@ -1,4 +1,7 @@
-  .container-s101 {
+body{
+  background: #292929 !important;
+}
+.container-s101 {
   max-width: 1440px;
   background-color: #fff;
   background-repeat: repeat-y;
@@ -53,7 +56,7 @@
   --background-black: #000;
   --background-silver-clean: #f1f3f4;
   --background-silver: #59626f;
-  --background-green: #c0eac6;
+  --background-green: #c0e4c6;
   --background-green-light: linear-gradient(203deg, rgba(202,238,206,1) 19%, rgba(120,191,132,1) 78%, rgba(120,191,132,1) 84%);
 
   --text-white: #fff;
@@ -100,7 +103,7 @@
 
   .subtitle {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -109,7 +112,7 @@
 
   .sub-title {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   font-weight: 300;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -134,7 +137,7 @@
 
   .img-grid-mob{display: none;}
   .img-grid-desk{display: block;}
-  .spacing{padding: 3rem;}
+
 
   .btn-green {
   background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
@@ -155,7 +158,6 @@
   .icons-title {
   font-size: 1.3rem;
   font-family: "Camphor Pro", sans-serif;
-  position: relative;
   font-weight: 700;
   color: var(--text-preto);
   line-height: 1.2;
@@ -164,13 +166,13 @@
   .icons-tex {
   font-size: 1rem;
   font-family: "Camphor Pro", sans-serif;
-  position: relative;
+
   font-weight: 400;
   line-height: 1.2;
   }
 
   .icons-size {
-  width: 5rem;
+  width: 4.3rem;
   margin: 1rem;
   }
 
@@ -275,14 +277,15 @@
   /********************** Grind Mobile *******************/
 
   .grid-desk-xiaomi{ 
-  gap: 1.5rem;
-  margin: 0 auto;
-  display: grid;
 
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
   }
 
+  
 
   /********************************************************/
 
@@ -305,8 +308,8 @@
   }
   .sub-title {
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 350;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
