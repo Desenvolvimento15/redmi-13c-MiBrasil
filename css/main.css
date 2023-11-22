@@ -183,6 +183,14 @@ body{
   align-items: center;
   }
 
+  .icons-img-text-octa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    line-height: 3;
+
+  }
   /************************ Grid ***********************/
 
   .grid-desk-xiaomi{ 
@@ -192,6 +200,15 @@ body{
   grid-template-columns: 1fr 1fr;
   width: 50rem;
   }
+
+  .grid-icons-xiaomi {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
   /********************** Slideshow ********************/
 
@@ -284,7 +301,16 @@ body{
     align-items: stretch;
     flex-wrap: nowrap;
   }
-
+  
+  .grid-icons-xiaomi {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 13rem;
+    margin: 0 auto;
+    align-items: flex-start;
+}
   
 
   /********************************************************/
