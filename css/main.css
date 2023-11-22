@@ -1,68 +1,66 @@
-    .container-s101 {
-    max-width: 1440px;
-    background-color: #fff;
-    background-repeat: repeat-y;
-    }
+  .container-s101 {
+  max-width: 1440px;
+  background-color: #fff;
+  background-repeat: repeat-y;
+  }
 
-    .container-s101 {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    }
+  .container-s101 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
 
-    .col-sm-12-s101{
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    }
+  .col-sm-12-s101{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  }
 
-    .col-sm-12-s101 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    }
+  .col-sm-12-s101 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
 
-    .row-s101 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    }
+  .row-s101 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
 
-    .col-sm-12-s102{
-      position: relative;
-      width: 100%;
-      min-height: 1px;
-      }
-  
-      .col-sm-12-s102 {
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-      }
-    
+  .col-sm-12-s102{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  }
 
-    :root{
+  .col-sm-12-s102 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
 
-    --background-silver-dark: #828282;
-    --background-silver-light: #e8e8e8;
-    --background-white-light: #fafafa;
-    --background-white: #ffff;
-    --background-black: #000;
-    --background-silver-clean: #f1f3f4;
-    --background-silver: #59626f;
-    --background-green: #c0eac6;
-    --background-green-light: linear-gradient(203deg, rgba(202,238,206,1) 19%, rgba(120,191,132,1) 78%, rgba(120,191,132,1) 84%);
+  :root{
+  --background-silver-dark: #828282;
+  --background-silver-light: #e8e8e8;
+  --background-white-light: #fafafa;
+  --background-white: #ffff;
+  --background-black: #000;
+  --background-silver-clean: #f1f3f4;
+  --background-silver: #59626f;
+  --background-green: #c0eac6;
+  --background-green-light: linear-gradient(203deg, rgba(202,238,206,1) 19%, rgba(120,191,132,1) 78%, rgba(120,191,132,1) 84%);
 
-    --text-white: #fff;
-    --text-preto: #000;
-    --title-blue: #263549;
-    }
-  
+  --text-white: #fff;
+  --text-preto: #000;
+  --title-blue: #263549;
+  }
+
   .txt-branco {color: var(--text-white);}
   .txt-preto{color: var(--text-preto)}
 
@@ -75,15 +73,34 @@
   .boxcolor-silver-clean{background-color: var(--background-silver-clean);}
   .boxcolor-green{background-color: var(--background-green)}
   .boxcolor-green-gradient{background: var(--background-green-light)}
-  
+
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
   .img-fluid {width: 100%; height: auto;}
+  .img-fluid-icons{margin: 0 auto; display: block;}
+
+  .title-xioami{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-xioami{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
 
   .subtitle {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   font-weight: 600;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -120,67 +137,64 @@
   .spacing{padding: 3rem;}
 
   .btn-green {
-    background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
-    padding: 10px ;
-    text-align: center;
-    color: white;
-    box-shadow: 0 0 25px #eee;
-    border-radius: 47px;
-    display: block;
-    border: none;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    width: 25rem;
-    font-size: 2.3rem;
-    font-weight: 700;
-}
-
-.icons-title {
-  font-size: 2rem;
+  background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
+  padding: 10px ;
   text-align: center;
+  color: white;
+  box-shadow: 0 0 25px #eee;
+  border-radius: 47px;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 25rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  }
+
+  .icons-title {
+  font-size: 1.3rem;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   font-weight: 700;
-  color: var(--title-icon);
-  margin-top: 1rem;
+  color: var(--text-preto);
   line-height: 1.2;
-}
+  }
 
-
-.icons-text {
+  .icons-tex {
   font-size: 1rem;
-  text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   font-weight: 400;
   line-height: 1.2;
-  margin-top: 1rem;
-}
+  }
 
-.icons-tex {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 400;
-  color: #7f7f7f;
-}
+  .icons-size {
+  width: 5rem;
 
-  /******************************* Grid ***********************/
+  }
 
+  .icons-img-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  }
 
+  /************************ Grid ***********************/
 
   .grid-desk-xiaomi{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+  gap: 1.5rem;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: 50rem;
   }
-/*** Slideshow ***/
-.slick-slider {
+
+  /********************** Slideshow ********************/
+
+  .slick-slider {
   position: relative;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -188,66 +202,66 @@
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-}
-.slick-list, .slick-slider button{overflow: hidden}
-.slick-list.dragging {cursor: ew-resize}
-.slick-slide {
+  }
+  .slick-list, .slick-slider button{overflow: hidden}
+  .slick-list.dragging {cursor: ew-resize}
+  .slick-slide {
   display: none;
   float: left;
   height: 100%;
   min-height: 1px;
   z-index: 10 !important;
-}
-.slick-slide img{width:100%}
-.slick-slide.dragging img {pointer-events: none}
-.slick-initialized .slick-slide {display: block}
-.slick-slider button{
+  }
+  .slick-slide img{width:100%}
+  .slick-slide.dragging img {pointer-events: none}
+  .slick-initialized .slick-slide {display: block}
+  .slick-slider button{
   cursor: pointer; 
   outline: 0;
   text-indent: 100px;
   transition: all .4s ease;
-}
+  }
 
-/*** Navigation ***/
+  /*** Navigation ***/
 
-/*** Pagination ***/
-.slick-dots {
-  margin: 10px 0 0;
+  /*** Pagination ***/
+  .slick-dots {
+  margin: 2rem 0 0;
   padding: 0;
   text-align: center;
-}
-.slick-dots li{
+  margin-bottom: 1rem;
+  }
+  .slick-dots li{
   display: inline-block;
   margin: 0 5px;
-}
-.slick-dots button {
-  background: #ccc;
+  }
+  .slick-dots button {
+  background: #828282;
   border-radius: 15px;
-  border: 1px solid #999;
-  box-shadow: 2px 2px 0 #666;
+  border: 1px solid #828282;
   height: 20px;
   width: 20px;
-}
-.slick-dots button:hover {
-  background: #eaeaea;
-  border: 1px solid #ccc;
-}
-.slick-active button{
-  background: #f90; 
-  border-color: #966;
-}
+  }
 
+  .slick-active button{
+  background: #292929; 
+  border-color: #292929;
+  }
+  .spacing{padding: 3rem;}
+  .spacing-galery{padding: 12rem;}
 
   /************************* Mobile ***********************/
-  
-  @media only screen and (max-width: 920px) {
-      
-  .row-s101 {padding: 0 0px;}
 
+  @media only screen and (max-width: 920px) {
+
+  .img-fluid-icons {width: 100%; height: auto;}
+
+  .row-s101 {padding: 0 0px;}
+  .spacing{padding: 1rem;}
+  .spacing-galery{padding: 1rem;}
   .img-grid-desk{display: none;}
-  .img-grid-mob{display: block;
-  }
-      
+  .img-grid-mob{display: block;}
+
   .col-md-12-s101 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -256,20 +270,47 @@
 
   /********************** Grind Mobile *******************/
 
-  .grid-second-s101 {
-  gap: 1rem;
+  .grid-desk-xiaomi{ 
+  gap: 1.5rem;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
   }
-    
+
   /********************************************************/
 
-  .spacing{padding: 1rem;}
+  .title-xioami{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
+  .subtitle-xioami{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+  .sub-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
+
 
   .subtitle {
   text-align: center;
-  font-size: 1.09rem;
+  font-size: 1.9rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -305,5 +346,21 @@
   padding: 0.5rem;
   }
 
-  
+  .btn-green {
+  background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
+  padding: 5px ;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 25px #eee;
+  border-radius: 47px;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  }
+
+
   }
