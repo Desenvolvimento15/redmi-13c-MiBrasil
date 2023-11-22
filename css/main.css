@@ -1,7 +1,7 @@
-body{
+  body{
   background: #292929 !important;
-}
-.container-s101 {
+  }
+  .container-s101 {
   max-width: 1440px;
   background-color: #fff;
   background-repeat: repeat-y;
@@ -163,6 +163,14 @@ body{
   line-height: 1.2;
   }
 
+  .icons-title-mp {
+  font-size: 2rem;
+  font-family: "Camphor Pro", sans-serif;
+  font-weight: 700;
+  color: var(--text-preto);
+  line-height: 2;
+  }
+
   .icons-tex {
   font-size: 1rem;
   font-family: "Camphor Pro", sans-serif;
@@ -172,8 +180,13 @@ body{
   }
 
   .icons-size {
-  width: 4.3rem;
+  width: 4rem;
   margin: 1rem;
+  }
+
+  .icons-size-mp{
+  width: 6.5rem;
+  margin: 2rem;
   }
 
   .icons-img-text {
@@ -184,11 +197,11 @@ body{
   }
 
   .icons-img-text-octa{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    line-height: 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  line-height: 3;
 
   }
   /************************ Grid ***********************/
@@ -202,13 +215,21 @@ body{
   }
 
   .grid-icons-xiaomi {
-    gap: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .grid-xiaomi {
+  gap: 1.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 38rem;
+  }
 
   /********************** Slideshow ********************/
 
@@ -294,24 +315,23 @@ body{
   /********************** Grind Mobile *******************/
 
   .grid-desk-xiaomi{ 
-
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    flex-wrap: nowrap;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-wrap: nowrap;
   }
-  
+
   .grid-icons-xiaomi {
-    gap: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 13rem;
-    margin: 0 auto;
-    align-items: flex-start;
-}
-  
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 13rem;
+  margin: 0 auto;
+  align-items: flex-start;
+  }
+
 
   /********************************************************/
 
@@ -334,7 +354,7 @@ body{
   }
   .sub-title {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 350;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -344,7 +364,7 @@ body{
 
   .subtitle {
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
