@@ -1,6 +1,4 @@
-  body{
-  background: #292929 !important;
-  }
+
   .container-s101 {
   max-width: 1440px;
   background-color: #fff;
@@ -217,12 +215,12 @@
   /************************ Grid ***********************/
 
   .grid-desk-xiaomi {
-    gap: 1.5rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 42rem;
-}
+  gap: 1.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 42rem;
+  }
 
   .grid-icons-xiaomi {
   gap: 1.5rem;
@@ -242,14 +240,14 @@
   }
 
   .grid-xiaomi-retrato {
-    width: 31%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-    flex-direction: row;
-}
+  width: 31%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: row;
+  }
 
 
 
@@ -364,14 +362,14 @@
   }
 
   .grid-xiaomi-retrato {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-}
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  }
 
 
 
